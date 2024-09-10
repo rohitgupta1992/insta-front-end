@@ -16,7 +16,7 @@ const Icons = ({setContent, content, theme}) => {
                 <span style={{opacity: 1.4}}>😄</span>
             </span>
 
-            <div className="dropdown-menu" aria-labelledby="navbarDropdown">
+            <div className="dropdown-menu " aria-labelledby="navbarDropdown">
                 <div className="reactions">
                     {
                         reactions.map(icon => (

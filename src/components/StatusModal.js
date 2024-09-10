@@ -115,7 +115,7 @@ const StatusModal = () => {
                         &times;
                     </span>
                 </div>
-
+                    
                 <div className="status_body">
                     <textarea name="content" value={content}
                     placeholder={`${auth.user.username}, what are you thinking?`}
